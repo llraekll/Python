@@ -1,0 +1,6 @@
+Integers - numbers from negative infinity to zero to infinity.
+Float - Same as Integers but in decimals, basically decimals.
+Boolean/ Bool - It says true or false.
+String - A sequence of characters written in single or double quotes, which can be alphabets or numbers.
+    example - "hello", each letter has individual memory allocated
+None type - This takes on only one value that is none which is zero 
