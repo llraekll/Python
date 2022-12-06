@@ -1,0 +1,8 @@
+Variables 
+    Something that has no fixed value and can be assigned with a constant, Variables can't be repeated but be reused.
+    x = 2   y = 'abc'
+    Here = is assigning the value to the variables x and y, values on the RHS are assigned to LHS
+    Using x == y results in an output False as == is an operator, but in x=y the value of y is assigned to x
+    x=y     x will be 'abc'
+	Variable names can consist of numbers but not special characters and also cannot start with number, variables are CASE SENSETIVE.
+		example- rak=1 'O', rak1=1 'O', 1rak=1 'X', ra.k=1 'X' 

@@ -1,0 +1,28 @@
+Sequence
+    Strings are sequences, 
+	Can index sequence
+    a='rakshith', 	a[0]/[-8] = r		a[1]/[-7] = a		a[2]/[-6] = k	
+	can slice sequence
+	a[1:5] This gives the letters from the index a[1] to a[4], the number previous to the mentioned number on right will not be considered,
+	a[1:5] gives us aksh
+	a[0:1] gives us r
+	a[0:-6] gives us ra
+	a[:4] gives us raks, when no number is mentioned on LHS it is considered from the start of the sequence
+	a[4:] gives us hith, when no number is mentioned on RHS it is considered to the end of the sequence
+    
+    Iterate - Can be repeated over and over, like a loop.
+        for letter in a:
+            print(letter)
+        print('done')
+        
+        output:
+        r
+        a
+        k
+        s
+        h
+        i	
+        t
+        h
+        done
+	
