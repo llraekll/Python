@@ -1,0 +1,24 @@
+Compound types
+1. Tuple- sequel containing other objects, has () not mutable
+		x= (3,4.5,'rak')
+		x + (2,3)=(3,4.5,'rak',2,3)
+		x[2] = 'rak' 
+	here x cannot be altered but must be reassigned
+	
+2. List- sequel containing other objects, has [] & mutable
+		x=[1,2,3]
+		x.append[4] = [1,2,3,4] adds in the end
+		x.extend[3,9] = [1,2,3,4,3,9] similar to append & we can add an another list to the existing one
+		x.pop() = removes the last item from the list
+		x[0] = 'rak' => x= ['rak',1,2,3] 
+
+3. Dictionary - mapping between key and value, has {}
+		en_to_ka= {'ate' : 'unndha'}
+		en_to_ka['ate'] = 'unndha'
+		print(en_to_ka) => {'ate' : 'unndha'}
+		print(en_to_ka['ate']) => unndha
+	We are assigning values to keys such as ate is the key and unndha is the value for the dictionary name en_to_ka, a key must be immutable
+
+4. Sets - Group of unique objects, has {}
+    set = set()
+    set.add()
