@@ -11,9 +11,8 @@ def guess():
         elif n > m:
             print('Too high nigga')
         else:
-            print(f'You got it nigga, {m} is da numba')
-    print('Thanks fa playin nigga')
+            print(f'hanks fa playin nigga, {m} is da numba')
 
 
-if __name__ == '__main__':
-    guess()
+
+guess()
