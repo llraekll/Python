@@ -1,4 +1,3 @@
-
 def compare(n,m):
     if n > m:
         return'Too high nigga'
@@ -9,3 +8,4 @@ def compare(n,m):
 
 # if __name__ == '__main__':
 #     compare()
+
