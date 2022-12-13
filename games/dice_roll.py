@@ -83,5 +83,3 @@ while dice_roll == 'R':
             print('|R6    R6|')
             print('|R6    R6|')
             break
-
-    # dice_roll = str(input('Enter R for rolling the dice again ')).upper()
